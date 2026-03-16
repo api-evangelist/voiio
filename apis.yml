@@ -1,39 +1,22 @@
+aid: voiio
 name: Voiio
-description: Voiio provides employee assistance and wellbeing services through digital platforms, offering support for personal and professional challenges.
-image: https://www.voiio.com/logo.png
-url: https://www.voiio.com
-created: '2025-01-20'
-modified: '2025-01-20'
-apis:
-- name: Voiio API
-  description: API for integrating Voiio employee assistance and wellbeing services into HR systems and corporate platforms
-  image: https://www.voiio.com/api-logo.png
-  humanURL: https://www.voiio.com/api
-  baseURL: https://api.voiio.com
-  tags:
+description: >-
+  Voiio provides employee assistance and wellbeing services through digital
+  platforms, offering support for personal and professional challenges. No
+  publicly documented API or developer portal has been identified for this
+  provider.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Employee Assistance
   - Wellbeing
   - HR
-  - Mental Health
-  - Work-Life Balance
-  properties:
-  - type: Documentation
-    url: https://docs.voiio.com
-  - type: OpenAPI
-    url: https://api.voiio.com/openapi.json
-  - type: Authentication
-    url: https://docs.voiio.com/authentication
-  contact:
-  - FN: Voiio API Support
-    email: api-support@voiio.com
-    url: https://www.voiio.com/contact
+created: '2025-01-20'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/voiio/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis: []
 maintainers:
-- FN: Voiio
-  email: contact@voiio.com
-  url: https://www.voiio.com
-tags:
-- employee assistance
-- wellbeing
-- HR technology
-- mental health
-- employee benefits
+  - FN: Kin Lane
+    email: kin@apievangelist.com
