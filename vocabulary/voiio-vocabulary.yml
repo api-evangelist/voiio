@@ -1,0 +1,77 @@
+vocabulary:
+  name: Voiio Vocabulary
+  description: >-
+    Domain vocabulary for Voiio's employee assistance and work-life balance
+    platform, covering HR wellbeing concepts, service modules, and integration patterns.
+  version: '2026-05-03'
+  terms:
+    - term: Employee Assistance Program (EAP)
+      definition: >-
+        A confidential workplace benefit providing employees with short-term
+        counseling, referrals, and support resources for personal and
+        professional challenges. Voiio is categorized as an EAP provider
+        in the German market.
+      tags:
+        - HR
+        - Benefits
+
+    - term: Work-Life Balance
+      definition: >-
+        The equilibrium between professional and personal life responsibilities.
+        Voiio's platform positioning centers on supporting employees across
+        all life stages to maintain this balance.
+      tags:
+        - Wellness
+        - Core Concept
+
+    - term: Magic Link
+      definition: >-
+        Voiio's primary integration mechanism — an authenticated URL that
+        provides seamless single sign-on access to the Voiio platform from
+        within an employer's existing HR software or intranet, without
+        requiring separate credentials.
+      tags:
+        - Integration
+        - Authentication
+
+    - term: White Label
+      definition: >-
+        A customization approach where the Voiio platform is branded with
+        the employer's corporate design (colors, logo, domain) to present
+        a seamless employee experience.
+      tags:
+        - Integration
+        - Branding
+
+    - term: Life Stage Support
+      definition: >-
+        Voiio's framework for categorizing support services by employee
+        life events: Pregnancy & Birth, Babies & Children, School & Teenagers,
+        Marriage & Partnership, Personal Wellness, Eldercare, Diversity.
+      tags:
+        - Service Model
+
+    - term: DSGVO
+      definition: >-
+        Datenschutz-Grundverordnung — the German implementation of the EU
+        General Data Protection Regulation (GDPR). Voiio maintains DSGVO-
+        compliant data processing for all employee data.
+      tags:
+        - Compliance
+        - Privacy
+
+    - term: Eldercare
+      definition: >-
+        Support services for employees who have care responsibilities for
+        elderly family members, including advisory, coordination, and
+        referral services. One of Voiio's seven service modules.
+      tags:
+        - Service Module
+
+    - term: Coaching
+      definition: >-
+        Professional one-on-one support sessions with qualified coaches or
+        counselors available through the Voiio platform for personal and
+        professional development.
+      tags:
+        - Service Type

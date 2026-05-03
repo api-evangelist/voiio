@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "voiio": "https://voiio.de/ns/",
+    "EmployeeWellbeing": "voiio:EmployeeWellbeing",
+    "EAP": "voiio:EAP",
+    "MagicLink": "voiio:MagicLink",
+    "LifeStageSupport": "voiio:LifeStageSupport",
+    "GovernmentOrganization": "schema:GovernmentOrganization",
+    "Organization": "schema:Organization",
+    "Service": "schema:Service",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "areaServed": "schema:areaServed",
+    "availableLanguage": "schema:availableLanguage"
+  }
+}

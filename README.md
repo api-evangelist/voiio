@@ -1,37 +1,35 @@
-# Voiio (voiio)
-Voiio provides employee assistance and wellbeing services through digital platforms, offering support for personal and professional challenges.
+# Voiio
 
-**URL:** [Visit APIs.json URL](https://www.voiio.com)
+Voiio is a German employee assistance and work-life balance platform — "#1 in Work-Life-Balance" in the German market. The platform provides employee support across all life stages (family planning, childcare, eldercare, personal wellness, career support) through digital services, coaching, live lectures, and expert referrals available 24/7. Integration with employer systems is available via Magic Links and white-label customization.
 
-## Tags:
+- **Website:** [https://voiio.de/](https://voiio.de/)
+- **Services:** [https://voiio.de/unsere-kernbereiche](https://voiio.de/unsere-kernbereiche)
+- **Terms:** [https://voiio.de/agb](https://voiio.de/agb)
 
- - employee assistance, wellbeing, HR technology, mental health, employee benefits
+## Notes
 
-## Timestamps
+No public REST API or developer portal has been identified for Voiio. Integration is available via enterprise contract through Magic Links (authenticated deep-link SSO URLs) and white-label customization. Contact Voiio directly for integration options.
 
-- **Created:** 2025-01-20 
-- **Modified:** 2025-01-20 
+## Artifacts
 
-## APIs
+### JSON-LD Context
 
-### Voiio API
-API for integrating Voiio employee assistance and wellbeing services into HR systems and corporate platforms
+| Context | Description |
+|---------|-------------|
+| [json-ld/voiio-context.jsonld](json-ld/voiio-context.jsonld) | Linked data context for Voiio services |
 
-**Human URL:** [https://www.voiio.com/api](https://www.voiio.com/api)
+### Vocabulary
 
+| Vocabulary | Description |
+|------------|-------------|
+| [vocabulary/voiio-vocabulary.yml](vocabulary/voiio-vocabulary.yml) | Voiio domain vocabulary and HR wellbeing terminology |
 
-#### Tags:
+## Scope
 
- - Employee Assistance, Wellbeing, HR, Mental Health, Work-Life Balance
-
-#### Properties
-
-- [Documentation](https://docs.voiio.com)
-- [OpenAPI](https://api.voiio.com/openapi.json)
-- [Authentication](https://docs.voiio.com/authentication)
+- **Type:** Index
+- **Tags:** Employee Assistance, HR, Wellbeing, Work-Life Balance, EAP, Germany
 
 ## Maintainers
 
-**FN:** Voiio
-
-**Email:** contact@voiio.com
+**FN:** Kin Lane
+**Email:** kin@apievangelist.com
