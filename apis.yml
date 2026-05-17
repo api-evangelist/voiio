@@ -29,7 +29,7 @@ common:
     url: https://voiio.de/
   - type: Documentation
     url: https://voiio.de/unsere-kernbereiche
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/voiio-context.jsonld
   - type: Vocabulary
     url: vocabulary/voiio-vocabulary.yml
