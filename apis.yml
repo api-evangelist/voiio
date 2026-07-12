@@ -25,6 +25,8 @@ modified: '2026-05-03'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/voiio-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/voiio
   - type: LinkedIn
@@ -41,6 +43,8 @@ common:
     url: https://voiio.de/agb
   - type: PrivacyPolicy
     url: https://voiio.app/en/privacy/policy/
+  - type: Blog
+    url: https://voiio.de/blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
