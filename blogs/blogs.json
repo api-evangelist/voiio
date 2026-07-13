@@ -1,0 +1,21 @@
+{
+  "repo": "voiio",
+  "feeds": [
+    {
+      "source": "https://voiio.de/blog",
+      "feed_url": "https://voiio.de/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://voiio.app/en/privacy/policy/",
+      "feed_url": "https://voiio.app/en/privacy/policy/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 10
+}
