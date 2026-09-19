@@ -37,6 +37,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voiio.png
 tags:
   - Employee Assistance
+  - Human Resources
+  - Wellbeing
+  - Work-Life Balance
+  - EAP
+  - Germany
+tags_raw:
+  - Employee Assistance
   - HR
   - Wellbeing
   - Work-Life Balance
