@@ -64,36 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Voiio is a German employee assistance and work-life balance platform — "#1 in Work-Life-Balance" in the German market. The platform provides employee support across all life stages (family planning, childcare, eldercare, personal wellness, career support) through digital services, coaching, live lectures, and expert referrals available 24/7. Integration with employer systems is available via Magic Links and white-label customization.
+Voiio is a German employee assistance and work-life balance platform, positioning itself as "#1 in Work-Life-Balance" in the German market. The platform provides employee support across all life stages (family planning, childcare, eldercare, personal wellness, career support) through digital services, coaching, live lectures, expert referrals, and a 24/7 accessible portal. Integration with employer systems is available via Magic Links (authenticated deep-link URLs) and a white-label customization approach. No public REST API or developer portal has been identified; integrations are enterprise-contract based.
 
-- **Website:** [https://voiio.de/](https://voiio.de/)
-- **Services:** [https://voiio.de/unsere-kernbereiche](https://voiio.de/unsere-kernbereiche)
-- **Terms:** [https://voiio.de/agb](https://voiio.de/agb)
+**Areas:** Employee Assistance · Human Resources · Wellbeing · Work-Life Balance · EAP · Germany
 
-## Notes
+## Voiio on APIs.io
 
-No public REST API or developer portal has been identified for Voiio. Integration is available via enterprise contract through Magic Links (authenticated deep-link SSO URLs) and white-label customization. Contact Voiio directly for integration options.
+Everything profiled for Voiio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/voiio/](https://apis.io/providers/voiio/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-### JSON-LD Context
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Context | Description |
-|---------|-------------|
-| [json-ld/voiio-context.jsonld](json-ld/voiio-context.jsonld) | Linked data context for Voiio services |
+#### JSON-LD (1)
 
-### Vocabulary
+Linked-data contexts for the provider's vocabulary.
 
-| Vocabulary | Description |
-|------------|-------------|
-| [vocabulary/voiio-vocabulary.yml](vocabulary/voiio-vocabulary.yml) | Voiio domain vocabulary and HR wellbeing terminology |
+- [Voiio Context](https://apis.io/jsonld/voiio/voiio-context/)
 
-## Scope
+#### Vocabulary (1)
 
-- **Type:** Index
-- **Tags:** Employee Assistance, HR, Wellbeing, Work-Life Balance, EAP, Germany
+The provider's domain terms, defined.
 
-## Maintainers
+- [Voiio Vocabulary](https://apis.io/vocabularies/voiio/voiio-vocabulary/)
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Voiio Domain Security](https://apis.io/security/voiio/voiio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://voiio.de/)
+- [Documentation](https://voiio.de/unsere-kernbereiche)
+- [Blog](https://voiio.de/blog)
+- [Terms of service](https://voiio.de/agb)
+- [Privacy policy](https://voiio.app/en/privacy/policy/)
+- [GitHub](https://github.com/voiio)
+
+## API Evangelist rating
+
+**Kin Score 16.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 10.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/voiio/](https://apis.io/providers/voiio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Voiio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/voiio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
